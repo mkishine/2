@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="invoice1">
+<head>
+<script src="../angular.js"></script>
+<script src="invoice1.js"></script>
+</head>
+<body>
+	<div ng-controller="HelloWorld as hw">
+		<!-- 
+		<div>
+ 		{{ hw.names | json }}
+ 		</div>
+ -->
+		<div class="span4" ng-repeat="nr in hw.names">
+			<label> <input type="checkbox" ng-model="nr.checked">
+				{{ nr.label }}
+			</label>
+		</div>
+		<hr>
+		<div class="span8" ng-repeat="nr in hw.functions">
+			<label> <input type="checkbox" ng-model="nr.checked">
+				{{ nr.label }}
+			</label>
+		</div>
+	</div>
+</body>
+</html>

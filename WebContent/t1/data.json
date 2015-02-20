@@ -1,0 +1,10 @@
+[
+{"name":"ann", "function":"add"},
+{"name":"ann", "function":"subtract"},
+{"name":"ann", "function":"multiply"},
+{"name":"ann", "function":"divide"},
+{"name":"bob", "function":"add"},
+{"name":"dan", "function":"subtract"},
+{"name":"charlie", "function":"add"},
+{"name":"dan", "function":"divide"}
+]
